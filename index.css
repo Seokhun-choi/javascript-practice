@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
 body {
-  background-color: yellow;
+  background-color: #2c5364;
 }
 
 .btn {
@@ -7,11 +9,46 @@ body {
 }
 
 body {
-  color: #34495e;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Pangolin", sans-serif;
+}
+
+header {
+  text-shadow: 3px 3px 2px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.527);
+  text-shadow: 2px 2px 2px gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.js-clock {
+  font-size: 60px;
 }
 
 .clicked {
   color: red;
+}
+
+.weather {
+  font-size: 25px;
 }
 
 .form,
@@ -21,4 +58,53 @@ body {
 
 .showing {
   display: block;
+  font-size: 25px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadein 0.4s linear;
+}
+
+input {
+  border: none;
+  background-color: rgba(248, 248, 248, 0);
+  border-bottom: 1px dashed white;
+  color: white;
+  font-size: 20px;
+}
+
+li. {
+  background-color: ;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+  font-weight: 200;
+}
+
+.js-toDoList {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
 }
