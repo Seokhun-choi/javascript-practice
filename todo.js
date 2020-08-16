@@ -39,7 +39,6 @@ function paintToDo(text) {
   toDoList.appendChild(li);
   li.id = newId;
   //   li에 id 넣기 ....구나?
-
   //   와우 코드해석 완료쓰 ^^ 그러니까 이미 const들이 만드어져있잖아?
   //  li, delBtn, span에다가 계속 덮붙인거임
   // delBtn은 X 를 text 입력한거고! 그리고 appendChild로 const li에
